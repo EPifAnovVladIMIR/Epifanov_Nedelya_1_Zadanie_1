@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Заканчивается ли число цифрой 7?" Margin="0,54,496,295" FontSize="18"/>
+        <TextBox x:Name="A" TextWrapping="Wrap" Margin="575,41,114,337" AutomationProperties.Name="A"/>
+        <TextBox x:Name="vvod" TextWrapping="Wrap" Margin="26,139,593,250" AutomationProperties.Name="vvod "/>
+        <Button x:Name="button" Content="Проверка" Margin="26,246,531,122" AutomationProperties.Name="button" FontSize="18" Click="button_Click"/>
+
+    </Grid>
+</Window>

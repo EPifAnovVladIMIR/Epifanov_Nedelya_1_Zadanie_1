@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Среднее геометрическое a,б" Margin="0,84,543,309" FontSize="18"/>
+        <TextBox x:Name="a" TextWrapping="Wrap" Margin="429,84,111,293" FontSize="18" AutomationProperties.Name="a"/>
+        <TextBox x:Name="b" TextWrapping="Wrap" Margin="429,189,111,180" AutomationProperties.Name="b"/>
+        <Button x:Name="button" Content="Вывод " Margin="0,189,413,180" FontSize="18" AutomationProperties.Name="button" Click="button_Click"/>
+        <TextBox x:Name="text" TextWrapping="Wrap" Margin="340,333,49,45" IsEnabled="False" AutomationProperties.Name="text" FontSize="18"/>
+
+    </Grid>
+</Window>
