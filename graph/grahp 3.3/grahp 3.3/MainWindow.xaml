@@ -1,0 +1,20 @@
+﻿<Window x:Class="grahp_3._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:grahp_3._3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="A" Margin="0,26,713,323" FontSize="18"/>
+        <Label Content="B" Margin="0,168,713,182" FontSize="18"/>
+        <Label Content="H" Margin="0,298,713,58" FontSize="18"/>
+        <TextBox x:Name="J" TextWrapping="Wrap" Margin="87,26,479,355" AutomationProperties.Name="J" TextChanged="J_TextChanged" Text="1" FontSize="18"/>
+        <TextBox x:Name="I" TextWrapping="Wrap" Margin="87,151,479,217" AutomationProperties.Name="I" Text="2" FontSize="18"/>
+        <TextBox x:Name="P" TextWrapping="Wrap" Margin="87,278,479,97" TextChanged="h_TextChanged" AutomationProperties.Name="P" FontSize="18" Text="3"/>
+        <TextBox x:Name="answer" TextWrapping="Wrap" Margin="368,168,22,97" TextChanged="TextBox_TextChanged" AutomationProperties.Name="answer" FontSize="18" Text=" f (1,00)= 1,10  f(0,00)=1,00  f(1,00)=1,00  f(2,00)= 5,00"/>
+        <Button x:Name="vi4et" Content="Вычеслить" Margin="380,53,70,288" FontSize="18" AutomationProperties.Name="vi4et" Click="vi4et_Click"/>
+
+    </Grid>
+</Window>

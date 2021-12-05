@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="199*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="227*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Введите Х" Margin="242,56,463,105" RenderTransformOrigin="0.5,0.5" FontSize="18">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.088"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.613"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Введите Y" Margin="237,167,433,217" FontSize="18" Grid.RowSpan="3"/>
+        <TextBox x:Name="X" TextWrapping="Wrap" Margin="340,50,232,103" FontSize="18" AutomationProperties.Name="X"/>
+        <TextBox x:Name="Y" TextWrapping="Wrap" AutomationProperties.Name="Y" FontSize="18" Margin="340,152,232,0" Grid.RowSpan="2"/>
+        <Button x:Name="vivod" Content="Вывод" Margin="47,94,488,78" AutomationProperties.Name="vivod" FontSize="18" Grid.Row="2" Click="vivod_Click"/>
+        <TextBox x:Name="otvet" HorizontalAlignment="Left" Margin="381,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="388" Height="71" FontSize="18" AutomationProperties.Name="otvet"/>
+
+    </Grid>
+</Window>
