@@ -1,0 +1,21 @@
+﻿<Window x:Class="graph_6._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:graph_6._3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="804">
+    <Grid>
+        <Button Margin="486,340,106,0" Click="Button_Click">
+            <Button Content="Button"/>
+        </Button>
+        <Label Content="Ввелите размерность массива" Margin="0,0,510,336" FontSize="18"/>
+        <Label Margin="0,139,510,198" FontSize="18" Content="Введите исходный массив"/>
+        <TextBox x:Name="A" TextWrapping="Wrap" Margin="342,0,177,361" AutomationProperties.Name="A"/>
+        <TextBox x:Name="B" TextWrapping="Wrap" Margin="342,128,177,246" AutomationProperties.Name="B"/>
+        <TextBox x:Name="answer" TextWrapping="Wrap" Margin="28,258,566,108" AutomationProperties.Name="answer" FontSize="18" Text="Новый массив "/>
+        <TextBox x:Name="answer1" TextWrapping="Wrap" Margin="342,258,212,108" AutomationProperties.Name="answer"/>
+
+    </Grid>
+</Window>
